@@ -1,0 +1,30 @@
+Nama 	: Romy Pratama
+Nim 	: 1515015018
+
+1.Ubah bahasa Prolog berikut menjadi bahasa natural:
+a. orang(dian). = Dian adalah nama orang
+b. mobil(atoz) = Atoz adalah merek mobil
+c. suka(dian, atoz)). = Dian menyukai mobil atoz
+d. dijual(atoz). = mobil atoz dijual.
+e. dapat_membeli(X,Y):-orang(X),
+   mobil(Y),
+   suka(X,Y),
+   dijual(Y).
+=  X dapat _membeli Y jika.
+   X adalah variabel penganti nama.
+   Y adalah variabel penganti mobil.
+   X menyukai Y
+   Y di jual.
+f. suka(_,Apa). = apa yang orang lain suka / Setiap orang Menyukain apa.
+
+2.Ubah bahasa natural berikut menjadi bahasa Prolog:
+a.  Ricky mempunyai hobi bermain catur. = hobi(Ricky,catur).
+b.  Embang orangnya pemalas. = orang(Embang,pemalas).
+c.  Yusida seorang vegetarian. = orang(Yusida,vegetarian).
+d.  Kusdiar pandai bermain gitar.= pandai(Kusdiar,gitar).
+e.  Mobil yang berwarna merah itu milik Sadek, bermerk BMW. = milik(Mobil,Sadek),warna(Mobil,merah).
+f.  Awan seorang pemain piano, berasal dari Pontianak bersuku Jawa. = pemain(Awan,piano),berasal(Awan,pontianak).
+g.  Seseorang dikatakan baik jika mempunyai sifat penyayang dan dermawan. = dikatakan(orang,baik):-sifat(orang,penyayang).
+h.  Seseorang dikatakan pintar jika salah satu dari Matematika atau IPA atau IPS mendapat nilai tinggi.
+    = dikatakan(orang,pintar):-dapat(ips,tinggi);dapat(ipa,tinggi);dapat(ips,tinggi).
+i.  Setiap orang pasti mati. = setiap(orang,mati).

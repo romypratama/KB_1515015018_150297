@@ -1,0 +1,18 @@
+Nama	: Romy Pratama
+Nim 	: 1515015018
+
+POSTTEST 2
+
+Macam macam keyword yang ada di visual prolog
+
+1. nondeterm	: Menentukan bahwa hanya ada sejumlah fakta dari suatu predikat sepanjang program berjalan (default).
+2. domain	: Menyatakan jenis variabel
+3. predicates	: Memberikan gambaran kata-kata yang ada dalam program
+4. clause 	: Memberikan fakta-fakta yang ada untuk memberikan gambaran kepada VPE dalam melakukan pengujian untuk
+		  menjadi solusi dari pertanyaan yang diberikan.
+5. Goal		: Menampilkan hasil eksekusi dari program yang sudah dibuat.
+6. determ	: Menentukan bahwa hanya boleh ada satu fakta dari suatu predikat sepanjang program berjalan.
+7. global	: Menentukan bahwa section facts adalah global dalam program.
+8. single	: Menentukan hanya satu fakta dari predikat yang akan selalu ada.
+9. nocopy 	: Normalnya pemanggilan fakta akan mengikat variabel kesebuah string atau objek jamak.
+10.facts	: Untuk memulai section facts. 
