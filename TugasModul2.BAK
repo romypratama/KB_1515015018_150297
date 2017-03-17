@@ -41,4 +41,4 @@ clauses
 	adik(A,B):-usia(A,C), usia(B,D), C<D.
   
 goal
-	cucu(X).
+	cucu(X,Y).
