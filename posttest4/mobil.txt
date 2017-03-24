@@ -1,0 +1,26 @@
+beli_mobil(model,warna):-
+mobil(Model,Warna,Harga),  
+warna(Warna,seksi),!,  
+Harga < 25000. 
+
+       model
+
+model		warna		harga
+ferari(X)	jijau(X)	25000
+jaguar(V)	hitam(X) 	24000
+jaguar(V)	merah(V) 	26000
+porsche(X)	merah(X)	24000
+
+
+	warna	
+merah(V) 	seksi(V)
+hitam(X)	wibawa(X)
+hijau(X)	sejuk(X)
+
+karena model sudah di tentukan memangil jaguar maka pilihan pertama jaguar hitam,
+dan lanjut lagi ke Y yang dimana disitu sudah ditentukan akan memangil seksi yang
+dimana seksi itu warna merah, 
+melihat pilihan yang pertama tadi tidak sesuai dengan kriteria, maka lanjut kepiliahn 
+kedua jaguar dan warna merah sesuai dengan kriteria seksi.
+kenapa harga tidak dibandingkan karena selesai penyeleksian warna ada predikat cut(!).
+karena predikat cut yaitu tidak akan memungkinkan terjadinya lacakbalik melewati sebuah cut
